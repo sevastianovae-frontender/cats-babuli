@@ -127,7 +127,63 @@ footer {
 }
 .rate {
     display: flex;
+    margin-top:15px;
 }
 .rate img {
     height: 10px;
+}
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    height:30px;
+    box-shadow: 0 0 5px 0 #0006;
+}
+button:hover{
+    box-shadow: 0 0 5px 0 #0006, 0 0 15px 0 #0009;
+}
+.card-button{
+    color:navy;
+}
+.cat-info-button{
+    color:darkslateblue;
+    margin-top:15px;
+    font-size:18px;
+}
+.cat-new{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:20px;
+}
+.cat-new-wrap{
+   display:flex;
+   flex-wrap: nowrap;
+   margin-bottom:10px;
+}
+.cat-new-pole{
+   margin:10px;
+   font-family: sans-serif;
+   color:navy;
+   font-size:18px;
+}
+.cat-new-button{
+    color:navy;
+    font-size:22px;
+    width:400px;
+}
+.cat-new-button-update{
+    color:navy;
+    font-size:22px;
+    width:400px;
+    margin-top:15px;
+}
+
+#newName, #newAge, #newRate, #newDiscription{
+    border-radius: 5px;
+}
+#newAge, #newRate{
+    width:40px;
+}
+#newDiscription{
+    width:200px;
 }

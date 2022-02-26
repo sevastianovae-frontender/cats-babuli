@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" href="images/cat-fill.svg">
-  <script src="cats.js"></script> 
+  <script src="cats.js"></script>
 </head>
 <body>
     <header>
@@ -17,7 +17,19 @@
         <div class="cat-info">
             <div class="cat-info-wrap">  
             </div>
+           
         </div>   
+
+      <div class="cat-new">
+          <div class="cat-new-wrap">
+            <p class="cat-new-pole">Имя:<input type="text" size="20" id="newName"></p>
+            <p class="cat-new-pole">Возраст:<input type="number" id="newAge"></p>
+            <p class="cat-new-pole">Рейтинг:<input type="number" id="newRate"></p>
+            <p class="cat-new-pole">Описание:<input type="text" id="newDiscription"></p> 
+        </div> 
+        <button class="cat-new-button" onclick="addInfo()">Добавить котика</button>        
+        <button class="cat-new-button-update" onclick="oldStorage()">Обновить</button> 
+      </div>
     <footer>©2022 All rights reserved</footer>
     <script src="moy_script.js"></script>
 </body>
